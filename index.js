@@ -9,3 +9,6 @@ function calculateval(){
     var result=eval(userinput)
     document.getElementById("display").value=result
 }
+function backspace(){
+    document.getElementById("display").value=document.getElementById("display").value.slice(0,-1)
+}
